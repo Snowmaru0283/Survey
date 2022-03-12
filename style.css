@@ -45,13 +45,13 @@ body {
 
 #title {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-top: 0.5rem;
 }
 
 #description {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-style: italic;
   margin-top: 0.3rem;
   margin-bottom: 0.1rem;
@@ -146,6 +146,7 @@ textarea:focus {
   transform: scale(1.02);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
+
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
