@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 18px;
+}
+@media screen and (max-width: 475px) {
+  .basic-container {
+    max-width: 100%;
+    flex-direction: column;
+  }
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
+
+body {
+  height: 90vh;
+  font-family: Poppins, sans-serif;
+  /* Created with https://www.css-gradient.com */
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background-repeat: no repeat;
+}
+
+.container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.1rem;  
+  margin: 3.5rem auto;
+  padding: 0.5rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  max-width: 35rem;
+  transition: 0.5s ease;
+}
+
+#title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+#description {
+  text-align: center;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 0.3rem;
+  margin-bottom: 0.1rem;
+  box-sizing: border-box;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0.2rem auto 0 auto;
+  max-width: 90%;
+}
+
+.basic-container {
+  margin-top: 0.5em;
+  display: flex;
+}
+
+.basic-container div input {
+  width: 95%;
+  box-sizing: border-box;
+}
+
+.basic-container div {
+  margin-right: -0.5rem;
+}
+
+.form-item {
+  margin-bottom: 0.5rem;
+}
+.form-item > label {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.input-radio,
+.input-checkbox {
+  font-size: 0.75rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: -1px;
+  vertical-align: middle;
+}
+
+select {
+  width: 41%;
+  padding: 0.3rem;
+}
+
+select:focus {
+  outline: none;
+}
+
+input {
+  padding: 0.3rem;
+}
+
+input::placeholder {
+  overflow: visible;
+}
+textarea {
+  width: 100%;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  resize: none;
+  border-style: none;
+  background: #ededed;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+#submit {
+  transition: 0.5s ease;
+  width: 100%;
+  height: 2.9em;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border-style: none;
+}
+
+#submit:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  font-size: 14px;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-size: 14px;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-size: 14px;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 14px;
+}
