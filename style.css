@@ -21,6 +21,7 @@
 
 body {
   height: 90vh;
+  text-align: center;
   font-family: Poppins, sans-serif;
   /* Created with https://www.css-gradient.com */
   background: #12c2e9; /* fallback for old browsers */
@@ -36,7 +37,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 1.1rem;  
-  margin:auto;
+  margin: 0 auto;
   padding: 0.5rem;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
   max-width: 35rem;
