@@ -25,7 +25,7 @@
 
 body {
   height: 100vh;
-  position: relative;
+  width: 100vw;
   font-family: Poppins, sans-serif;
   /* Created with https://www.css-gradient.com */
   background: #12c2e9; /* fallback for old browsers */
@@ -38,7 +38,7 @@ body {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 100%
   background: white;
   display: flex;
   flex-direction: column;
