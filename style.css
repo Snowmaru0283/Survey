@@ -39,7 +39,7 @@ body {
 
 .container {
   max-width: 100%;
-  width: 10rem;
+  width: 80%;
   background: white;
   display: flex;
   flex-direction: column;
