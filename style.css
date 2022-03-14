@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 475px) {
     .container {
-        margin-top: 5rem;
+        margin-top: 8rem;
         flex-wrap: wrap;
     }
     .basic-container {
