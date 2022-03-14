@@ -20,8 +20,8 @@
 }
 
 body {
-  height: 90vh;
-  text-align: center;
+  height: 100vh;
+  position: relative;
   font-family: Poppins, sans-serif;
   /* Created with https://www.css-gradient.com */
   background: #12c2e9; /* fallback for old browsers */
@@ -31,6 +31,8 @@ body {
 }
 
 .container {
+  position: absolute;
+  top: 50%;
   background: white;
   display: flex;
   flex-direction: column;
